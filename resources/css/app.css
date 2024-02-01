@@ -1,0 +1,11 @@
+
+
+body {
+    background-color: #F6F8FD;
+}
+
+.auth {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
