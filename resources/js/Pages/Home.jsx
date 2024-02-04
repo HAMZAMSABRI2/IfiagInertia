@@ -1,11 +1,15 @@
 import { Link } from '@inertiajs/react'
 import React from 'react'
+import NavBar from './navbar/NavBar'
+import Bloc from './content/Bloc'
+import Content from './content/Content'
 
 export default function Home() {
     return (
         <>
-            <div>Je suis la page d'accueil</div>
-            <Link href={route('carlos')}>Page About</Link>
+                    <NavBar/>
+                    <Bloc/>
+                    <Content/>
         </>
     )
 }
